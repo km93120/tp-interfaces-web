@@ -1,0 +1,17 @@
+<div>
+  <h3>ML component</h3>
+
+
+    <input type="file" name="pic" accept="image/*">
+
+
+
+
+  <!-- two way binding : <input type="text" [(ngModel)]="queryTerm"> -->
+  <div style=" flex-direction: row;
+               justify-items: auto;">
+    <button class ="btn" style="margin-left: 40%" (click)="shareData ('mnist')">MNIST prediction</button>
+    <button class ="btn"                          (click)="shareData ('dvc')">DogsVCats prediction</button>
+  </div>
+
+</div>
