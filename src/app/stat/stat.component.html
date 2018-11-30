@@ -17,9 +17,24 @@
       <br>
       <B>Des Stats !</B>
       <br>
-      <br>
-      <br>
-      <br>
+      <div class="test">
+        <p>MNIST prediction count : {{MNISTcountValue}}</p>
+        <p>DogsVcats prediction count : {{dogsVcatsCountValue}}</p>
+        <div class="test2">
+          <canvas width="200"
+                  height="100"
+                  mdbChart
+                  [chartType]="chartType"
+                  [data]="chartData"
+                  [labels]="chartLabels"
+                  [colors]="chartColors"
+                  [options]="chartOptions"
+                  [legend]="true"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)">
+          </canvas>
+        </div>
+      </div>
       <br>
       <br>
       <br>

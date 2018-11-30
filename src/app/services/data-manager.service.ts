@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -27,13 +27,3 @@ export class DataManagerService {
     console.log('tag :' +  'MNIST count incremented' + this.MNISTpredictionCount);
   }
 }
-
-
-/*private data = new BehaviorSubject('');
-currentData = this.data.asObservable()
-
-constructor() { }
-
-updateClickCount(item: any) {
-  this.data.next(item);
-}*/

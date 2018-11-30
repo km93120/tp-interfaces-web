@@ -13,6 +13,17 @@
     <br>
     <br>
     <img src="assets/img/bla8.png" width="350" height="300">
+    <br>
+    <input type="file" name="pic" accept="image/*">
+    <br>
+    <br>
+    <div class="test3" style=" flex-direction: row;
+                 justify-items: auto;">
+      <br>
+      <button class ="btn" style="margin-left: 40%" (click)="shareData ('mnist')">MNIST prediction</button>
+
+      <button class ="btn"                          (click)="shareData ('dvc')">DogsVCats prediction</button>
+    </div>
   </div>
 </article>
 </body>
