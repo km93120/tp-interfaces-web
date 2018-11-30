@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  author1 = 'Atman MADADI';
+  author2 = 'Alexandre SONNIC';
+  author3 = 'Geoffrey PELISSIER'
 }

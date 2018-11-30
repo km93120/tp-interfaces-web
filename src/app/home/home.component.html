@@ -1,15 +1,27 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!DOCTYPE html>
+<html>
+<audio autoplay>
+  <source src="assets/sound/coin.mp3" type="audio/mp3" />
+</audio>
+<body>
+  <article>
+    <div class=test>
+      <br>
+      <h1>
+          Welcome to our {{ title }}!
+      </h1>
 
-  <h1>
-    Welcome to our {{ title }}!
-  </h1>
-
-  <h2><a class="nav-link" routerLink="/login" routerLinkActive="active"> go to login </a></h2>
-</div>
-
-<p> Created by {{ autor }} </p>
-
-
-
-<router-outlet></router-outlet>
+      <br>
+      <br>
+      <a>Vous voulez rentrez sur notre site, il va falloir montrer patte blanche</a>
+      <br>
+      <a routerLink="/login" routerLinkActive="active">Venez tapez notre mot de passe si vous l'osez ...</a>
+      <br>
+      <br>
+      <br>
+      <img src="assets/img/bla4.png" width="600" height="600" >
+      <br>
+      <I>"Bienvenue dans la mare, camarade !"</I>
+    </div>
+  </article>
+</body>

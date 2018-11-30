@@ -1,0 +1,19 @@
+article
+{
+  background-color: lightgreen;
+  position: absolute;
+  min-height: 100%;
+  min-width: 84.5%;
+  margin-top: -8px;
+  margin-left: 14.70%;
+}
+
+B
+{
+  font-size: 60px;
+}
+
+.test
+{
+  text-align: center;
+}

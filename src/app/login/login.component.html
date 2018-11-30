@@ -1,9 +1,38 @@
-<div style="text-align:center">
-	
-	<input #box
-		(keyup.enter)="login(box.value)">
-
-	<h2><a class="nav-link" routerLink="/home" routerLinkActive="active"> go to home </a></h2>
-</div>
-
-<router-outlet></router-outlet>
+<!DOCTYPE html>
+<html>
+<audio autoplay>
+  <source src="assets/sound/coin.mp3" type="audio/mp3" />
+</audio>
+<body>
+<article>
+  <div class=test>
+    <br>
+    <a>Entrez le mot de passe ou perissez !</a>
+    <br>
+    <br>
+    <a>Pour le trouver, il va falloir resoudre l'enigme !</a>
+    <br>
+    <br>
+    <B>Mon premier est la cinquieme lettre de l'alphabet</B>
+    <br>
+    <B>Mon deuxieme ressemble à un serpent</B>
+    <br>
+    <B>Mon troisieme se trouve dans le crie de la vache</B>
+    <br>
+    <B>Mon dernier est mon premier, l'alpha et l'omega</B>
+    <br>
+    <B>Mon tout est vachement proche de vous !</B>
+    <br>
+    <br>
+    <a>(si vous ne trouvez pas, vous pouvez toujours allez voir notre code, mais ca merite bien un point en plus non ?)</a>
+    <br>
+    <br>
+    <input #box (keyup.enter)="login(box.value)">
+    <br>
+    <br>
+    <img src="assets/img/bla3.png" width="400" height="300">
+    <br>
+    <I>"Va-t-il reussir à trouver l'enigme ?"</I>
+  </div>
+</article>
+</body>
