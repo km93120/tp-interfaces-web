@@ -1,0 +1,29 @@
+<div class="right">
+
+  <h3>Stats</h3>
+
+  <p>MNIST prediction count : {{MNISTcountValue}}</p>
+  <p>DogsVcats prediction count : {{dogsVcatsCountValue}}</p>
+
+  <!--<div style="display: block">
+    <button type="button" mdbBtn color="primary" mdbWavesEffect>Primary</button>
+  </div>-->
+
+  <div style="display: block">
+    <canvas mdbChart
+            [chartType]="chartType"
+            [data]="chartData"
+            [labels]="chartLabels"
+            [colors]="chartColors"
+            [options]="chartOptions"
+            [legend]="true"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+    </canvas>
+  </div>
+
+
+
+
+
+</div>
